@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+/* font-family: 'Handlee', cursive; */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav {}
+
+nav.navbar.navbar-expand-md {
+    background: #00000054;
+}
+
+li.nav-item a {
+    color: #ffffff;
+}
+
+a.nav-link:hover {
+    text-decoration: underline;
+    color: #fa7e67;
+    transform: scale(1.05);
+    /* background-color: rgb(0, 0, 0); */
+}
+
+a.nav-link {
+    font-size: 18px;
+    transition: .3s;
+}
+
+h1.pb-4 {
+    color: #740091;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Handlee', cursive;
+}
+
+button.btn.btn-primary {
+    padding: 9px;
+    margin: 13px;
+    transition: .3s;
+    background: #494747;
+    font-size: 17px;
+    border: navajowhite;
+    width: 118px;
+    height: 48px;
+}
+
+button.btn.btn-primary:hover {
+    transform: scale(1.1);
+}
+
+.cont:hover {
+    transform: scale(1.05);
+    /* color: #ffffff; */
+    background-image: linear-gradient(#FF5200, #FF5200);
+    color: #ffffff;
+}
+
+.cont {
+    transition: .3s;
+}
+
+section#features {
+    background: #767272;
+    padding: 8px 27px;
+    height: auto;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    padding-top: 98px;
+    padding-bottom: 106px;
+}
+
+.features-items {
+    border: 4px solid #dc8fe3;
+}
+
+.hr-style {
+    width: 100px;
+    border: 5px dotted black;
+    border-bottom: none;
+    margin-bottom: 77px;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    margin-top: 23px;
+}
+
+#about-us {
+    padding: 3%;
+    background-color: #F5F6F6;
+}
+
+i.lni.lni-user.text-center {
+    font-size: 46px;
+    /* margin-left: 35px; */
+    margin-bottom: 14px;
+}
+
+i.fa-3x.fas.fa-trophy {
+    /* margin-left: 36px; */
+    margin-bottom: 12px;
+}
+
+span.span1 {
+    font-weight: bolder;
+}
+
+span.span2 {
+    font-weight: bolder;
+}
+
+span.span3 {
+    font-weight: bolder;
+}
+
+.personal-info h4 {
+    color: #df2706;
+}
+
+i.fa-3x.fas.fa-graduation-cap {
+    /* margin-left: 13px; */
+    margin-bottom: 13px;
+}
+
+i.fa-3x.fas.fa-box-tissue {
+    /* margin-left: 23px; */
+    margin-bottom: 12px;
+}
+
+button.btn.btn-secondary.mt-3 {
+    margin-bottom: 49px;
+}
+.card-img{
+    width: 100%;
+}
+#tutorial-section{
+    background-color: #F5F6F6;
+    padding: 4% 4%;
+}
+.card{
+   transition: .3s;
+}
+.card:hover{
+    transform: scale(1.05);
+    background-image: linear-gradient(rgb(187, 184, 184),rgb(187, 184, 184));
+    color: #F5F6F6;
+}
+.feedback-section{
+    background-color: #F5F6F6;
+    padding: 4% 4%;
+}
+#contact-section{
+    padding: 4% 4%;
+    background-color: #F5F6F6;
+}
+.form-group textarea{
+    resize: none;
+}
+footer{
+    background-color: rgb(68, 66, 66);
+    color: #ffffff;
+    padding: 4% 4%;
+}
+
+footer a{
+    transition: .3s;
+    color: #ffffff;
+}
+footer a:hover{
+    color: #FF5200;
+}
+
+@media (max-width:768px){
+    .banner-contents h1{
+        font-size: 35px;
+    }
+    /* button.btn.btn-primary {
+        padding: 9px;
+        margin: 13px;
+        transition: .3s;
+        background: #494747;
+        font-size: 17px;
+        border: navajowhite;
+        width: 80px;
+        height: 40px;
+    } */
+}
